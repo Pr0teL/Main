@@ -1,12 +1,18 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
 #zone {
     background: #000;
     width: 500px;
     height: 500px;
     margin: 0 auto;
-    margin-top: 10%;
     border: 5px solid black;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.8);
+    display: none;
+    transition: 2s;
 }
+
 #pl {
     padding-top: 16px;
     width: 50px;
@@ -15,6 +21,7 @@
     position: relative;
     z-index: 1;
 }
+
 #bon {
     position: relative;
     width: 50px;
@@ -23,7 +30,27 @@
     transform: scale(0.4);
     border-radius: 180px;
 }
+
 #pl p {
     margin: 0;
     text-align: center;
+}
+
+#cat {
+    width: 30vw;
+    height: 30vh;
+    position: relative;
+    overflow: visible;
+}
+#modal-load {
+    margin: 0;
+    width: 100%;
+    height: 70%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 30vh;
+    background: #000;
+    position: absolute;
+    transition: 0.5s;
 }

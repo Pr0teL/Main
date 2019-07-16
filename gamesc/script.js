@@ -1,5 +1,12 @@
-window.addEventListener('load', random);
 window.addEventListener('load', function () {
+    setTimeout(function(){
+        var modal = document.querySelector('#modal-load').style.opacity = 0;
+    var zone = document.querySelector('#zone');
+        zone.style.display = 'block';
+        setTimeout(function(){
+            zone.style.marginTop = 10 + "vh";
+        },200);
+    }, 1700);
     window.onkeyup = function (e) {
         if (e.keyCode == 37 || e.keyCode == 65) {
             var id = setInterval(frame);
