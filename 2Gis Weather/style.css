@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#hm {
+    display: flex;
+    justify-content: center;
+}
+#search {
+    width: 95%;
+    height: 4.93vh;
+    border-radius: 10px;
+    background: #fafafa;
+    font-size: 17px;
+    padding: 0px 20px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+#head {
+    display: flex;
+    width: 100%;
+    
+}
+#head #btn {
+    
+    height: 5.7vh;
+    background: lightgray;
+    text-align: center;
+}
+#head img {
+    width: inherit;
+    height: inherit;
+}
+#weather {
+    width: 99%;
+    height: 19.5vh;
+    background: #FAFAFA;
+    border: 2px solid #000;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    background-image: url(sun.gif);
+    background: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #fff;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 1);
+    
+}
+
+#temp {
+    font-size: 40px;
+}
+#tmp {
+    display: flex;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.c {
+    font-size: 20px;
+}
