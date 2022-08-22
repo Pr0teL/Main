@@ -1,0 +1,241 @@
+.header {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.up_scr{
+    height: 70vh;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(tesla_in.jpg);
+    background: cover;
+    background-size: cover;
+    background-position: 50% 20%;
+}
+.up_scrm3{
+    height: 70vh;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(model3in.jpg);
+    background: cover;
+    background-size: cover;
+    background-position: 50% 20%;
+}
+.up_scrmx {
+    height: 70vh;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(modelxin.jpg);
+    background: cover;
+    background-size: cover;
+    background-position: 50% 20%;
+}
+.up_scrmy {
+    height: 70vh;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(modelyin.jpg);
+    background: cover;
+    background-size: cover;
+    background-position: 50% 20%;
+}
+li {
+    display: block;
+    margin: 0;
+}
+#logo img{
+    width: 100px;
+    margin-top: 18px;
+}
+.menu {
+    width: 43%;
+}
+.menu a {
+    text-decoration: none;
+    color: #FFF;
+}
+.menu a:hover {
+    transition: 0.3s;
+    color: #DBDBDB;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+.r_bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.r_bar li {
+    margin: 0;
+    margin-left: 20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+.r_inf {
+    margin-top: 10px;
+    margin-right: 50px;
+}
+.r_inf li{
+    width: 250px;
+    font-size: 13px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #fff;
+}
+.r_inf ul {
+    flex-direction: column;
+    float: right;
+}
+.bottom_inf{
+    padding-top: 40px;
+    height: 25vh;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    
+}
+.l_side {
+    width: 300px;
+}
+.l_side p{
+    margin: 0;
+}
+.l_side h1{
+    margin: 0;
+}
+.pls{
+    font-size: 30px;
+    color: #000;
+    font-style: bold;
+    width: 28px;
+    height: 28px;
+    border: 3px solid #000;
+    border-radius: 90px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    transition: 0.2s;
+}
+.pls:hover {
+    color: #FFF;
+    background-color: #000;
+}
+.l_side .btn_l p{
+    text-decoration: none;
+    color: dimgray;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.l_side a {
+    text-decoration: none;
+}
+.btn_l{
+    display: flex;
+}
+.btn_r a {
+    color: dimgray;
+    border: 3px solid #000;
+    border-radius: 25px;
+    padding: 7px 20px;
+    margin-left: 20px;
+    transition: 0.2s;
+}
+.btn_r {
+    margin-top: 15px;
+}
+.btn_r a:hover {
+    background-color: #000;
+    color: #fff;
+}
+.btns {
+    display: flex;
+    margin-top: 25px;
+}
+.r_side {
+    width: 600px;
+}
+.scr_2 {
+    height: 96vh;
+}
+.scr_2Y {
+    height: 94vh;
+    background: #000;
+    padding-top: 6vh;
+}
+.carm3 img {
+    height: 420px;
+}
+
+.car img {
+    height: 390px;
+}
+.carm3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.car {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.inf {
+    color: #000;
+}
+.titles .cerc{
+    color: #000;
+    border: 1.5px solid #000;
+    border-radius: 25px;
+    padding: 7px 21px;
+    padding-left: 14px;
+    transition: 0.2s;
+    width: 4px;
+    font-size: 21px;
+    height: 24px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+.titles {
+    display: flex;
+}
+.inf p {
+    margin: 0;
+    font-size: 13px;
+    width: 250px;
+}
+.inf {
+    display: flex;
+    justify-content: center;
+}
+.inf img {
+    width: 70px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.inf h2 {
+    margin-bottom: 7px;
+}
+.inf h4 {
+    margin-bottom: 15px;
+}
+.cont:first-child {
+    margin-right: 40px;
+}
+.cont:first-child h4 {
+    margin-bottom: 20px;
+}
+.cont:last-child {
+    padding-left: 20px;
+}
+.cont:nth-child(2){
+    border-left: 1.5px solid #000;
+    border-right: 1.5px solid #000;
+    padding-left: 20px;
+}
+.bottom_inf:last-child{
+    margin-bottom: 0;
+}
+.cl {
+    color: dimgray;
+}

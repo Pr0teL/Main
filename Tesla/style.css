@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+.scr_1{
+    background: url(bg_main.jpg);
+    background-size: cover;
+    background-size: 200%;
+    background-position: 50% 57%;
+    height: 100vh;
+    transition: 0.5s;
+}
+.header {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+li {
+    display: block;
+    margin: 0;
+}
+#logo img{
+    width: 100px;
+    margin-top: 18px;
+}
+.menu {
+    width: 43%;
+}
+.menu a {
+    text-decoration: none;
+    color: #FFF;
+}
+.menu a:hover {
+    transition: 0.3s;
+    color: #DBDBDB;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+.r_bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.r_bar li {
+    margin: 0;
+    margin-left: 20px;
+}
+.title {
+    text-align: center;
+}
+.title h1 {
+    margin: 0;
+    font-size: 40px;
+    margin-top: 90px;
+}
+.title a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+    margin-bottom: 5px;
+}
+.btn{
+    border: 3px solid #fff;
+    border-radius: 30px;
+    padding: 8px 45px;
+    width: 160px;
+}
+.btn:first-child {
+    margin-right: 17px;
+    background: #fff;
+}
+.btn_1 a{
+    color: #000;
+}
+
+.btn_2:hover {
+    transition: 0.2s;
+    background: #fff;
+    
+}
+.btn_2 a:hover{
+    color: #000;
+}
+.visit a{
+    margin: 0 auto;
+    padding-bottom: 5px;
+    width: 70px;
+    border-bottom: 2px solid #fff;
+}
+.visit a:hover {
+    transition: 0.5s;
+    border-bottom: 3px solid #fff;
+}
+.slider {
+    display: flex;
+    justify-content: space-between;
+}
+.l_slide{
+    height: 66vh;
+    width: 20%;
+}
+.r_slide{
+    height: 66vh;
+    width: 20%;
+}
