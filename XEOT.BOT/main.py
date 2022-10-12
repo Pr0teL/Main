@@ -2,7 +2,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 import vk_api
 from datetime import datetime
 import time
-token = "a378b177595c0fc08b8bd5e3be9ef1a8e1501fd91330bc1a7b6f75a52c5a8caf34a4f5703165c86e7dd05"
+token = ""
 vk_session = vk_api.VkApi(token=token)
 
 session_api = vk_session.get_api()
